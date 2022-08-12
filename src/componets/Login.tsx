@@ -7,7 +7,7 @@ export function Login () {
 
      <form action="/action_page.php" method="post">
   <div className="imgcontainer">
-    <img src="/user.png" alt="Avatar" className="avatar" />
+    <img src="/user.png" alt="Avatar" className="avatar-login" />
   </div>
 
   <div className="container-login">

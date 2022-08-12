@@ -5,14 +5,13 @@ import { getAnalytics } from "firebase/analytics";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Loginpage } from './Pages/Login';
 import { Homepage } from './Pages/home';
-import'./Styles/index.css'
 import { Registerpage } from './Pages/register';
-// import './index.css';
-// import { Explorepage } from './pages/explore';
-// import { Homepage } from './pages/home';
-// import { Loginpage } from './pages/login';
-// import { Profilepage } from './pages/profile';
-// import { Registerpage } from './pages/register';
+import { Coursepage } from './Pages/course';
+// import GgComponents from './pages/notfound';
+import { Teacherpage } from './Pages/teacher';
+import'./Styles/index.css'
+import { Studentpage } from './Pages/View-video';
+
 
 const firebaseConfig = {
 	apiKey: "AIzaSyBDoyCXtWmMJkawWNZt_MbUPKp2om0TkOE",
@@ -34,11 +33,14 @@ root.render(
 	<BrowserRouter>
 		<Routes>
 		<Route path='/' element={<Homepage />} />
-		{/* <Route path='/login' element={<Loginpage />} /> */}
+		<Route path='/teacher' element={<Teacherpage/>} />
 		<Route path='/login' element={<Loginpage />} />
 		<Route path='/register' element={<Registerpage />} />
 		{/* <Route path='/profile' element={<Profilepage />} /> */}
-       {/* <Route path='/explore' element={<Explorepage />} /> */}
+       <Route path='/course' element={<Coursepage />} />
+       <Route path='/student' element={<Studentpage />} />
+
+	
 	   </Routes>
 	</BrowserRouter>
 );

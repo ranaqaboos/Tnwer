@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px 50px;
+  margin: 100px 250px;
   
 }
 .login{
@@ -14,7 +14,7 @@
     border-radius: 19px;
     width: 500px;
     height: 588px;
-    margin-right: 700px;
+    margin-right: -8px;
 
 }
 input[type=text], input[type=password] {
@@ -57,13 +57,14 @@ input[type=text], input[type=password] {
     margin: 24px 0 12px 0;
   }
   
-  img.avatar {
+  img.avatar-login  {
     width: 40%;
     border-radius: 50%;
   }
   
   .container-login {
     padding: 16px;
+    margin: 10px 60px;
   }
   
   span.psw {
