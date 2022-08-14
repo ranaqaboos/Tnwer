@@ -1,0 +1,23 @@
+.contener-profile{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+}
+.part1-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(132, 130, 127);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+width: 30vw;
+}
+.img-profile{
+    border-radius: 50%;
+}
+.part2-profile{
+    background-color: aliceblue;
+    width: 30vw;
+}

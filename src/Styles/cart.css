@@ -1,0 +1,72 @@
+.cart-page {
+  padding: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.course-side {
+  padding: 5px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
+.cart-item {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 200px;
+  background-color: #fafafa;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  margin: 0 10px;
+  justify-content: space-between;
+}
+
+.item-name {
+  margin-top: 10px;
+}
+.item-price {
+  margin-bottom: 10px;
+}
+
+.item-image {
+  height: 100%;
+  width: auto;
+}
+
+.summary-side {
+  border: 1px sold #eee;
+  padding: 10px;
+  /* background-color: #fff; */
+  width: 500px;
+}
+.field {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #000;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.field-name {
+}
+.field-value {
+}
+
+.bank-cart {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+.bank-cart-img {
+  width: 100%;
+  z-index: 1000;
+}
