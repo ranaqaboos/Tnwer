@@ -1,4 +1,5 @@
 import React from "react";
+import { Navbar } from "../componets/Navbar";
 import { useSelector } from "react-redux/es/exports";
 import $ from "jquery";
 import "../Styles/cart.css";
@@ -21,7 +22,8 @@ const Cart = () => {
     return sum;
   };
 
-  return (
+  return (<>
+    <Navbar/>
     <div className="cart-page">
       <div className="summary-side">
         <h1>Summary</h1>
@@ -40,6 +42,9 @@ const Cart = () => {
             alt=""
             className="bank-cart-img"
           />
+          <button type="submit" className="registerbtn1">
+            دفع
+          </button>
         </div>
       </div>
       <div className="course-side">
@@ -59,6 +64,7 @@ const Cart = () => {
         </div>
       </div>
     </div>
+            </>
   );
 };
 

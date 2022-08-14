@@ -20,6 +20,7 @@ const Course = ({ course }) => {
       <h1>{course.name}</h1>
       <p className="price">{course.price}</p>
       <p>{course.descaription}</p>
+      <p>{course.nameteacher}</p>
       <p>
         <button onClick={() => addCourseToCart()}>اشتراك</button>
       </p>

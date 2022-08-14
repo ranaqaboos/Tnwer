@@ -20,7 +20,7 @@ export function Teacher({ teacher }: PostProp) {
         /> */}
         <Avatar
           alt="Remy Sharp"
-          src="https://www.holidayscalendar.com/wp-content/uploads/2021/03/Nature-Photography-Day.jpg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfIG1adz2cC3T6BaBzktqNU14KdRP0psfugw&usqp=CAU"
           sx={{ width: 100, height: 100, marginTop: 3 }}
         />
 
