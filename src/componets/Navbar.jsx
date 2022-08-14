@@ -22,10 +22,11 @@ export function Navbar() {
         <div className="topnav">
           <a href="/">الصفحة الرئسية</a>
           {/* <a href="/">الحجز</a> */}
-          <a href="/course"> المقررات</a>
-          <a href="/teacher">الأساتذة</a>
-          <a href="#contact">اتصل بنا</a>
-          <a href="#about">من نحن</a>
+          <Link to="/course"> المقررات</Link >
+          <Link to="/teacher">الأساتذة</Link>
+          <Link to="/view-video">المقررات المسجلة</Link>
+          <Link to="/conact">اتصل بنا</Link>
+          <Link to="/about">من نحن</Link>
           {/* <input type="text" placeholder="Search.." className="search" /> */}
         </div>
         <div className="topnav">

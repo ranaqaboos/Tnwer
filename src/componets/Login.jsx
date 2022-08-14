@@ -68,7 +68,7 @@ export function Login() {
             onChange={(e) => setEmail(e.target.value)}
             required
             style={{
-              width: "100%",
+              width: "91%",
               padding: "15px",
               margin: "5px 0 22px 0",
               display: "inline-block",
