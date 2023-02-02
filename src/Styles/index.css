@@ -7,11 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image:url(../Styles/image/Screenshot\ 2022-08-11\ 133405.png ) ;
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   position: relative;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
